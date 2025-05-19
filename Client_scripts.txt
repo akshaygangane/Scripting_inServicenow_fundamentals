@@ -1,0 +1,16 @@
+Client scripts are used to manage the behavior of forms, fileds and lists in real time.
+-- to make fields mandatory
+-- set one field in response to other
+-- Modify choice list option
+-- HIde any field
+-- Display an alert
+
+Client Scripts are executed on client side that is on browser side.
+There are four types of client scripts: -
+--OnLoad
+--OnSubmit
+--OnCellEdit
+--OnChange
+
+The Order filed in Client scripts is used to define order of the current client-script which means at what order or at what time this particular 
+client script should run.
