@@ -14,3 +14,30 @@ There are four types of client scripts: -
 
 The Order filed in Client scripts is used to define order of the current client-script which means at what order or at what time this particular 
 client script should run.
+
+##OnLoad: -
+==========
+
+OnLoad client script runs when the form loads.
+
+function onload() {
+//code
+}
+
+It is used to change the behavior of the form, we use scripting to make our requirement work.
+ex: - 
+function onload() {
+
+g_form.setValue('priority','3');
+g_form.setDisplay('short_description', false);
+
+}
+
+##OnSubmit: - 
+=============
+This script is used when the form is saved, updated or submitted.
+This is typically used to validate fields.
+
+function onsubmit() {
+//code
+}
